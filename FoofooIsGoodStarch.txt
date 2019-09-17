@@ -1,0 +1,15 @@
+How to make FooFoo.
+set boulean q: Avoid the flour.  It's too sticky. 
+Step w.	if q THEN DO 	OR Method 1:  Peel and shred the manioc along with some sweeter starch (yam or plantain). Boil them until muschy. 
+			ELSEOR Method 2:  Boil the manioc with a little plantain yam until soft. Peel and smash.
+	ifnot q, THEN DO	Method 3:  futz around adding boiling water to flour and flour to boiling water. Stir a lot. Curse.
+Step e. Roll it into balls or cakes. Use banana leafs, cornhusk, plastic wrap, or whatever: it's sticky. 
+Step r.  If Kenyan, add less sticky starches and make a cake of it. 
+Step t.  Add enough stew to make manioc palatable, or if American, drown in stew like it's a matzoh. 
+Step y.  IF q AND IF your lips become numb or your legs are temporarily paralyzed, THEN DO boil longer next time.
+
+Antinutrientes na farinha de folhas de mandioca (Manihot esculenta Crantz) em três idades da planta
+Abstract
+No Brasil, a farinha de folhas de mandioca (FFM) vem sendo usada no combate à desnutrição por ser fonte de vitaminas e minerais. Todavia, a grande variação na composição química dos diferentes cultivares e a presença de substâncias antinutricionais tem restringido o seu uso. Investigaram-se os níveis de alguns antinutrientes da FFM de cinco cultivares em três idades da planta (TIP), a fim de selecionar cultivares e idades mais adequadas para o consumo humano. Aos 12 meses foram observados os menores teores de antinutrientes, exceto para nitrato e hemaglutinina, os quais foram inferiores aos 17 meses. O cultivar IAC 289-70 destacou-se com os menores níveis dos antinutrientes, exceto para a saponina e oxalato. Portanto, o cultivar IAC 289-70, aos 12 meses, é o mais adequado para o consumo humano.
+
+Pluviometric precipitation index from the planting time (October/2000) until the last collection of the leaves (March/2002) when the plant was 17-months old
