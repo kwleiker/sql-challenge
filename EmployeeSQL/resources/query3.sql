@@ -14,5 +14,5 @@ SELECT	s1.dept_no, s1.dept_name, s1.emp_no,
 		e.last_name, e.first_name, e.hire_date , s1.mgr_to_date
 FROM 	stage1 s1 inner join employees e 
 ON		s1.emp_no = e.emp_no; 
-
+ 
 
