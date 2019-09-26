@@ -1,11 +1,15 @@
--- DROP TABLE query4;
-
-CREATE TABLE query4 as 
+CREATE TABLE stage4a as 
 	SELECT 	e.emp_no, e.last_name, e.first_name, 
-			de.dept_no, de.from_date
-	FROM employees e INNER JOIN dept_emp de 
-	ON e.emp_no = de.emp_no; 
-	
-	-- GROUP BY
-	-- , max(de.to_date)
-	-- ORDER BY de.to_date DESC;  
+			de.dept_no, de.from_date, de.to_date
+	FROM 	employees e INNER JOIN dept_emp de 
+	ON 		e.emp_no = de.emp_no
+	ORDER BY 	e.emp_no ASC, 
+				de.to_date DESC;
+CREATE TABLE 	stage4 as
+	SELECT 	DISTINCT ON (s4.emp_no) 
+			s4.emp_no, s4.last_name, s4.first_name,
+			d.dept_name
+	FROM 	stage4_1 s4 INNER JOIN departments d 
+	ON 	s4.dept_no = d.dept_no;  
+
+DROP TABLE stage4a; 
