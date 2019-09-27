@@ -1,8 +1,7 @@
 
 
-/************************** part sifir **************************/
 /**
-0.	Schemata.stig
+part sifir:	Schemata.stigmata 
 **/
 
 CREATE TABLE departments (dept_no VARCHAR(8) PRIMARY KEY, dept_name VARCHAR(16) ); 
@@ -23,4 +22,7 @@ CREATE TABLE salaries (emp_no INTEGER, salary INTEGER, from_date DATE, to_date D
 
 CREATE TABLE titles (emp_no INTEGER, title VARCHAR(32), from_date DATE, to_date DATE, 
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no));
-
+	
+/** This is worth a few minutes:  **/ 
+/** https://www.youtube.com/watch?v=9xIxaPeOp8Y **/
+/** It's awful in that fantastically French way of being awful. **/  
